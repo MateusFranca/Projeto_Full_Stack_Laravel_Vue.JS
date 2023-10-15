@@ -60,7 +60,7 @@
 
                 <template v-slot:rodape>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    <button type="button" class="btn btn-primary">Salvar</button>
+                    <button type="button" class="btn btn-primary" @click="addProduto()">Salvar</button>
                 </template>
 
             </modal-component>
@@ -68,5 +68,42 @@
 </template>
 
 <script>
-    
+  export default {
+    data() {
+      return {
+        nome: '',
+      };
+    },
+    methods: {
+      addProduto() {
+        // Crie um objeto FormData
+        var formData = new FormData();
+
+        // Adicione o nome ao FormData
+        formData.append('name', this.nome);
+
+        // Adicione a imagem (assumindo que this.imagem é o arquivo selecionado)
+        formData.append('imagem', this.imagem);
+
+        // Faça a requisição POST
+        this.$http.post('adicionar', formData, {
+          headers: {
+            'Content-Type': 'multipart/form-data' // Indica que estamos enviando dados de formulário
+          }
+        }).then((response) => { 
+          console.log(response);
+        });
+
+        // Adicione os dados à lista apenas após a resposta bem-sucedida do servidor
+        this.listagem.push({
+          name: this.nome,
+          imagem: this.imagem.name // Assumindo que você quer adicionar o nome do arquivo
+        });
+
+        // Limpe os campos
+        this.nome = "";
+        this.imagem = null; // Limpe o campo de imagem
+      }
+    }
+}
 </script>
