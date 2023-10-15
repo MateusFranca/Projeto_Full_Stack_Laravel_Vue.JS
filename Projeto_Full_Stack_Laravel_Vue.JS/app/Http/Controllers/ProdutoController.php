@@ -34,6 +34,7 @@ class ProdutoController extends Controller
         return response()->json($produto, 201);
     }
 
+
     public function update(Request $request, $id)
     {
         $produto = Produto::find($id);

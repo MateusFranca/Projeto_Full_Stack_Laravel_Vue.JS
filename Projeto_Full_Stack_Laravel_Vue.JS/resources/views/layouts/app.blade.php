@@ -45,6 +45,7 @@
                                 <li><a class="dropdown-item" href="{{route('produtos')}}">Produtos em Destaque</a></li>
                                 <li><a class="dropdown-item" href="#">Categorias</a></li>
                                 <li><a class="dropdown-item" href="{{route('marcas')}}">Marcas</a></li>
+                                <li><a class="dropdown-item" href="{{route('teste')}}">Teste</a></li>
                             </ul>
                             </li>
                         </ul>

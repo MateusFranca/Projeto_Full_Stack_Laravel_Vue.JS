@@ -22,3 +22,4 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/marcas', function () {return view('app.marcas');})->name('marcas')->middleware('auth');
 Route::get('/produtos', function () {return view('app.produtos');})->name('produtos')->middleware('auth');
+Route::get('/teste', function () {return view('app.teste');})->name('teste')->middleware('auth');

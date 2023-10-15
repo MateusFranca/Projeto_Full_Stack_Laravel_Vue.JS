@@ -53,14 +53,14 @@
 
                     <div class="form-group">
                       <input-component titulo="Imagem" id="novoImagem" id-help="novoImagemHelp" texto-ajuda="Selecione uma imagem no formato PNG, JPG ou JPEG.">
-                        <input type="file" class="form-control" id="novoImagem" aria-describedby="novoImagemHelp">
+                        <input type="file" @change="handleFileUpload" class="form-control" id="novoImagem" aria-describedby="novoImagemHelp">
                         </input-component>
                     </div>
                 </template>
 
                 <template v-slot:rodape>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    <button type="button" class="btn btn-primary" @click="addProduto()">Salvar</button>
+                    <button type="button" class="btn btn-primary" @click="salvarProduto">Salvar</button>
                 </template>
 
             </modal-component>
@@ -68,42 +68,42 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        nome: '',
-      };
-    },
+import axios from 'axios';
+
+export default {
     methods: {
-      addProduto() {
-        // Crie um objeto FormData
-        var formData = new FormData();
+      data() {
+        return {
+            nome: '', // Aqui você deve adicionar os campos que correspondem aos dados do produto
+            descricao: '',
+            categoria: '',
+            imagem: null, // Isso será tratado separadamente
+            preco: 0,
+            disponivel: false
+        };
+    },
+        salvarProduto() {
+            const dadosProduto = {
+                nome: this.nome,
+                descricao: this.descricao,
+                categoria: this.categoria,
+                imagem: this.imagem, // Isso será tratado separadamente
+                preco: this.preco,
+                disponivel: this.disponivel
+            };
 
-        // Adicione o nome ao FormData
-        formData.append('name', this.nome);
-
-        // Adicione a imagem (assumindo que this.imagem é o arquivo selecionado)
-        formData.append('imagem', this.imagem);
-
-        // Faça a requisição POST
-        this.$http.post('adicionar', formData, {
-          headers: {
-            'Content-Type': 'multipart/form-data' // Indica que estamos enviando dados de formulário
-          }
-        }).then((response) => { 
-          console.log(response);
-        });
-
-        // Adicione os dados à lista apenas após a resposta bem-sucedida do servidor
-        this.listagem.push({
-          name: this.nome,
-          imagem: this.imagem.name // Assumindo que você quer adicionar o nome do arquivo
-        });
-
-        // Limpe os campos
-        this.nome = "";
-        this.imagem = null; // Limpe o campo de imagem
-      }
+            axios.post('/produtos', dadosProduto)
+                .then(response => {
+                    console.log('Produto salvo com sucesso', response.data);
+                })
+                .catch(error => {
+                    console.error('Erro ao salvar o produto', error);
+                });
+                
+        },
+        handleFileUpload(event) {
+        this.imagem = event.target.files[0];
+    },
     }
 }
 </script>

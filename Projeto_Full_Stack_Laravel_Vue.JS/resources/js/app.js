@@ -33,6 +33,7 @@ Vue.component("card-produto-component", require("./components/ProdutoCards.vue")
 Vue.component("modal-component", require("./components/Modal.vue").default);
 Vue.component("produtos-component", require("./components/Produtos.vue").default);
 Vue.component("marcas-component", require("./components/Marcas.vue").default);
+Vue.component("teste-component", require("./components/Teste.vue").default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
