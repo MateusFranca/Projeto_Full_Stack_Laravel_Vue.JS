@@ -5565,11 +5565,11 @@ var staticRenderFns = [function () {
   }, [_c("div", {
     staticClass: "col-md-4"
   }, [_c("div", {
-    staticClass: "card"
+    staticClass: "card h-100 d-flex flex-column"
   }, [_c("img", {
-    staticClass: "card-img-top",
+    staticClass: "card-img-top img-fluid",
     attrs: {
-      src: "produto1.jpg",
+      src: "/images/cardProduto/card1.jpg",
       alt: "Produto 1"
     }
   }), _vm._v(" "), _c("div", {
@@ -5578,7 +5578,7 @@ var staticRenderFns = [function () {
     staticClass: "card-title"
   }, [_vm._v("Produto 1")]), _vm._v(" "), _c("p", {
     staticClass: "card-text"
-  }, [_vm._v("Descrição do Produto 1.")]), _vm._v(" "), _c("a", {
+  }, [_vm._v("Explore a inovação com este impressionante dispositivo eletrônico. Equipado com tecnologia de última geração, este produto oferece desempenho excepcional e funcionalidades avançadas. Seja para trabalho ou lazer, este é o companheiro perfeito para acompanhar o seu estilo de vida moderno.")]), _vm._v(" "), _c("a", {
     staticClass: "btn btn-primary",
     attrs: {
       href: "#"
@@ -5586,11 +5586,11 @@ var staticRenderFns = [function () {
   }, [_vm._v("Comprar")])])])]), _vm._v(" "), _c("div", {
     staticClass: "col-md-4"
   }, [_c("div", {
-    staticClass: "card"
+    staticClass: "card h-100 d-flex flex-column"
   }, [_c("img", {
-    staticClass: "card-img-top",
+    staticClass: "card-img-top img-fluid",
     attrs: {
-      src: "produto2.jpg",
+      src: "/images/cardProduto/card4.jpg",
       alt: "Produto 2"
     }
   }), _vm._v(" "), _c("div", {
@@ -5599,7 +5599,7 @@ var staticRenderFns = [function () {
     staticClass: "card-title"
   }, [_vm._v("Produto 2")]), _vm._v(" "), _c("p", {
     staticClass: "card-text"
-  }, [_vm._v("Descrição do Produto 2.")]), _vm._v(" "), _c("a", {
+  }, [_vm._v("Potência e praticidade se unem neste incrível dispositivo eletrônico. Com um design elegante e recursos intuitivos, este produto redefine a experiência do usuário. Desfrute de alta performance e confiabilidade em um pacote compacto e sofisticado.")]), _vm._v(" "), _c("a", {
     staticClass: "btn btn-primary",
     attrs: {
       href: "#"
@@ -5607,11 +5607,11 @@ var staticRenderFns = [function () {
   }, [_vm._v("Comprar")])])])]), _vm._v(" "), _c("div", {
     staticClass: "col-md-4"
   }, [_c("div", {
-    staticClass: "card"
+    staticClass: "card h-100 d-flex flex-column"
   }, [_c("img", {
-    staticClass: "card-img-top",
+    staticClass: "card-img-top img-fluid",
     attrs: {
-      src: "produto3.jpg",
+      src: "/images/cardProduto/card5.jpg",
       alt: "Produto 3"
     }
   }), _vm._v(" "), _c("div", {
@@ -5620,7 +5620,7 @@ var staticRenderFns = [function () {
     staticClass: "card-title"
   }, [_vm._v("Produto 3")]), _vm._v(" "), _c("p", {
     staticClass: "card-text"
-  }, [_vm._v("Descrição do Produto 3.")]), _vm._v(" "), _c("a", {
+  }, [_vm._v("Descubra a próxima geração de tecnologia com este dispositivo eletrônico revolucionário. Projetado para oferecer uma experiência excepcional, este produto combina inovação e estilo em um único pacote. Experimente a evolução da conectividade e do desempenho.")]), _vm._v(" "), _c("a", {
     staticClass: "btn btn-primary",
     attrs: {
       href: "#"
@@ -5632,20 +5632,20 @@ var staticRenderFns = [function () {
   }, [_c("div", {
     staticClass: "col-md-4"
   }, [_c("div", {
-    staticClass: "card"
+    staticClass: "card h-100 d-flex flex-column"
   }, [_c("img", {
-    staticClass: "card-img-top",
+    staticClass: "card-img-top img-fluid",
     attrs: {
-      src: "produto1.jpg",
+      src: "/images/cardProduto/card4.jpg",
       alt: "Produto 1"
     }
   }), _vm._v(" "), _c("div", {
     staticClass: "card-body"
   }, [_c("h5", {
     staticClass: "card-title"
-  }, [_vm._v("Produto 1")]), _vm._v(" "), _c("p", {
+  }, [_vm._v("Produto 4")]), _vm._v(" "), _c("p", {
     staticClass: "card-text"
-  }, [_vm._v("Descrição do Produto 1.")]), _vm._v(" "), _c("a", {
+  }, [_vm._v("Este dispositivo eletrônico foi criado para superar as expectativas. Com recursos avançados e um design ergonômico, oferece uma experiência única aos usuários. Seja produtivo, divirta-se e explore um novo mundo de possibilidades com este incrível produto.")]), _vm._v(" "), _c("a", {
     staticClass: "btn btn-primary",
     attrs: {
       href: "#"
@@ -5653,20 +5653,20 @@ var staticRenderFns = [function () {
   }, [_vm._v("Comprar")])])])]), _vm._v(" "), _c("div", {
     staticClass: "col-md-4"
   }, [_c("div", {
-    staticClass: "card"
+    staticClass: "card h-100 d-flex flex-column"
   }, [_c("img", {
-    staticClass: "card-img-top",
+    staticClass: "card-img-top img-fluid",
     attrs: {
-      src: "produto2.jpg",
+      src: "/images/cardProduto/card5.jpg",
       alt: "Produto 2"
     }
   }), _vm._v(" "), _c("div", {
     staticClass: "card-body"
   }, [_c("h5", {
     staticClass: "card-title"
-  }, [_vm._v("Produto 2")]), _vm._v(" "), _c("p", {
+  }, [_vm._v("Produto 5")]), _vm._v(" "), _c("p", {
     staticClass: "card-text"
-  }, [_vm._v("Descrição do Produto 2.")]), _vm._v(" "), _c("a", {
+  }, [_vm._v("A tecnologia de ponta ganha vida neste dispositivo eletrônico. Com funcionalidades inovadoras e uma interface intuitiva, este produto oferece um desempenho excepcional em qualquer situação. Desfrute de uma experiência imersiva e eficiente, seja qual for a sua necessidade.")]), _vm._v(" "), _c("a", {
     staticClass: "btn btn-primary",
     attrs: {
       href: "#"
@@ -5674,20 +5674,20 @@ var staticRenderFns = [function () {
   }, [_vm._v("Comprar")])])])]), _vm._v(" "), _c("div", {
     staticClass: "col-md-4"
   }, [_c("div", {
-    staticClass: "card"
+    staticClass: "card h-100 d-flex flex-column"
   }, [_c("img", {
-    staticClass: "card-img-top",
+    staticClass: "card-img-top img-fluid",
     attrs: {
-      src: "produto3.jpg",
+      src: "/images/cardProduto/card1.jpg",
       alt: "Produto 3"
     }
   }), _vm._v(" "), _c("div", {
     staticClass: "card-body"
   }, [_c("h5", {
     staticClass: "card-title"
-  }, [_vm._v("Produto 3")]), _vm._v(" "), _c("p", {
+  }, [_vm._v("Produto 6")]), _vm._v(" "), _c("p", {
     staticClass: "card-text"
-  }, [_vm._v("Descrição do Produto 3.")]), _vm._v(" "), _c("a", {
+  }, [_vm._v("Este dispositivo eletrônico é o epitome da modernidade e praticidade. Com uma combinação impressionante de recursos avançados, oferece uma experiência de usuário sem precedentes. Leve sua produtividade e entretenimento a um novo patamar com este incrível produto.")]), _vm._v(" "), _c("a", {
     staticClass: "btn btn-primary",
     attrs: {
       href: "#"
@@ -5773,7 +5773,7 @@ var staticRenderFns = [function () {
   }, [_c("img", {
     staticClass: "d-block w-100",
     attrs: {
-      src: "",
+      src: "/images/slide/slide1.jpg",
       alt: "Slide 1"
     }
   })]), _vm._v(" "), _c("div", {
@@ -5781,7 +5781,7 @@ var staticRenderFns = [function () {
   }, [_c("img", {
     staticClass: "d-block w-100",
     attrs: {
-      src: "",
+      src: "/images/slide/slide2.jpg",
       alt: "Slide 2"
     }
   })]), _vm._v(" "), _c("div", {
@@ -5789,7 +5789,7 @@ var staticRenderFns = [function () {
   }, [_c("img", {
     staticClass: "d-block w-100",
     attrs: {
-      src: "",
+      src: "/images/slide/slide3.jpg",
       alt: "Slide 3"
     }
   })])]), _vm._v(" "), _c("button", {

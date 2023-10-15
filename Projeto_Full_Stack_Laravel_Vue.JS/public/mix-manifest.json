@@ -1,4 +1,18 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/images/slide1.jpg": "/images/slide1.jpg",
+    "/images/slide2.jpeg": "/images/slide2.jpeg",
+    "/images/slide3.jpeg": "/images/slide3.jpeg",
+    "/images/slide2.jpg": "/images/slide2.jpg",
+    "/images/slide3.jpg": "/images/slide3.jpg",
+    "/images/slide/slide1.jpg": "/images/slide/slide1.jpg",
+    "/images/slide/slide2.jpg": "/images/slide/slide2.jpg",
+    "/images/slide/slide3.jpg": "/images/slide/slide3.jpg",
+    "/images/cardProduto/card1.jpg": "/images/cardProduto/card1.jpg",
+    "/images/cardProduto/card2.jpg": "/images/cardProduto/card2.jpg",
+    "/images/cardProduto/card3.jpg": "/images/cardProduto/card3.jpg",
+    "/images/cardProduto/card4.jpg": "/images/cardProduto/card4.jpg",
+    "/images/cardProduto/card5.jpg": "/images/cardProduto/card5.jpg",
+    "/images/cardProduto/card6.jpg": "/images/cardProduto/card6.jpg"
 }

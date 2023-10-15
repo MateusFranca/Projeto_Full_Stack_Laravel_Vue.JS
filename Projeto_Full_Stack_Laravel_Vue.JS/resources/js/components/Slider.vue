@@ -2,13 +2,13 @@
   <div id="carouselExample" class="container carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="" class="d-block w-100" alt="Slide 1">
+        <img src="/images/slide/slide1.jpg" class="d-block w-100" alt="Slide 1">
       </div>
       <div class="carousel-item">
-        <img src="" class="d-block w-100" alt="Slide 2">
+        <img src="/images/slide/slide2.jpg" class="d-block w-100" alt="Slide 2">
       </div>
       <div class="carousel-item">
-        <img src="" class="d-block w-100" alt="Slide 3">
+        <img src="/images/slide/slide3.jpg" class="d-block w-100" alt="Slide 3">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -27,3 +27,4 @@ export default {
   name: 'Slider'
 }
 </script>
+
