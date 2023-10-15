@@ -40,7 +40,6 @@
                       </div>
                 </div>
                 <!-- CARD LISTAGEM -->
-
             </div>
       </div>
 </template>
