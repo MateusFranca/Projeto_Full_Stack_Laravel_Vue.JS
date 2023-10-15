@@ -25,6 +25,7 @@ Vue.component(
 );
 Vue.component("home-component", require("./components/Home.vue").default);
 Vue.component("login-component", require("./components/Login.vue").default);
+Vue.component("input-component", require("./components/InputContainer.vue").default);
 Vue.component("produtos-component", require("./components/Produtos.vue").default);
 Vue.component("marcas-component", require("./components/Marcas.vue").default);
 

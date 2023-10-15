@@ -42,7 +42,7 @@
                             <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
                                 <li><a class="dropdown-item" href="#">Localização</a></li>
                                 <div class="dropdown-divider"></div>
-                                <li><a class="dropdown-item" href="#">Produtos em Destaque</a></li>
+                                <li><a class="dropdown-item" href="{{route('produtos')}}">Produtos em Destaque</a></li>
                                 <li><a class="dropdown-item" href="#">Categorias</a></li>
                                 <li><a class="dropdown-item" href="{{route('marcas')}}">Marcas</a></li>
                             </ul>
