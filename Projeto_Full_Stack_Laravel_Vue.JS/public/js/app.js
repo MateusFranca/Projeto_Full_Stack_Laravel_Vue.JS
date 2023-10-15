@@ -5354,9 +5354,9 @@ var staticRenderFns = [function () {
   }, [_vm._v("usca de Marcas")]), _vm._v(" "), _c("div", {
     staticClass: "card-body"
   }, [_c("div", {
-    staticClass: "form-row"
+    staticClass: "row"
   }, [_c("div", {
-    staticClass: "col mb-3"
+    staticClass: "col-md-6 mb-3"
   }, [_c("label", {
     staticClass: "form-label",
     attrs: {
@@ -5371,12 +5371,12 @@ var staticRenderFns = [function () {
       placeholder: "ID"
     }
   }), _vm._v(" "), _c("div", {
-    staticClass: "form-text text-muted",
+    staticClass: "form-text-average text-muted",
     attrs: {
       id: "IdHelp"
     }
   }, [_vm._v("Opcional. Informe o ID do registro")])]), _vm._v(" "), _c("div", {
-    staticClass: "col mb-3"
+    staticClass: "col-md-6 mb-3"
   }, [_c("label", {
     staticClass: "form-label",
     attrs: {
@@ -5391,7 +5391,7 @@ var staticRenderFns = [function () {
       placeholder: "Nome da marca"
     }
   }), _vm._v(" "), _c("div", {
-    staticClass: "form-text text-muted",
+    staticClass: "form-text-average text-muted",
     attrs: {
       id: "nomeHelp"
     }
@@ -5479,7 +5479,7 @@ window.Vue = (__webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js
 Vue.component("example-component", (__webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]));
 Vue.component("home-component", (__webpack_require__(/*! ./components/Home.vue */ "./resources/js/components/Home.vue")["default"]));
 Vue.component("login-component", (__webpack_require__(/*! ./components/Login.vue */ "./resources/js/components/Login.vue")["default"]));
-Vue.component("produto-component", (__webpack_require__(/*! ./components/Produtos.vue */ "./resources/js/components/Produtos.vue")["default"]));
+Vue.component("produtos-component", (__webpack_require__(/*! ./components/Produtos.vue */ "./resources/js/components/Produtos.vue")["default"]));
 Vue.component("marcas-component", (__webpack_require__(/*! ./components/Marcas.vue */ "./resources/js/components/Marcas.vue")["default"]));
 
 /**
