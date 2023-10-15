@@ -2,7 +2,7 @@
   <div class="container">
       <div class="row justify-content-center">
           <div class="col-md-8">
-              <div class="card">
+              <div class="card mb-3">
                   <div class="card-header">Busca de Marcas</div>
 
                   <div class="card-body">
@@ -19,17 +19,30 @@
                           <input-component titulo="Nome da marca" id="InputNome" id-help="nomeHelp" texto-ajuda="Opcional. Informe o nome da marca">
                           <input type="text" class="form-control" id="InputNome" aria-describedby="nomeHelp" placeholder="Nome da marca">
                           </input-component>
-                          
+
                         </div>
                     </div>
                   </div>
                   <div class="card-footer">
-                        <button type="submit" class="btn btn-primary bt-sm float-right">Pesquisar</button>
-                      </div>
+                        <button type="submit" class="btn btn-primary bt-sm float-end">Pesquisar</button>
+                  </div>
               </div>
-          </div>
+
+                <!-- CARD LISTAGEM -->
+                <div class="card">
+                      <div class="card-header">Relação de marcas</div>
+                        <div class="card-body">
+                          <tabela-component></tabela-component>
+                        </div>
+                          <div class="card-footer">
+                            <button type="button" class="btn btn-primary bt-sm float-end">Adicionar</button>
+                        </div>
+                      </div>
+                </div>
+                <!-- CARD LISTAGEM -->
+
+            </div>
       </div>
-  </div>
 </template>
 
 <script>
