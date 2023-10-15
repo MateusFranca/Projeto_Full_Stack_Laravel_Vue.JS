@@ -28,6 +28,8 @@ Vue.component("login-component", require("./components/Login.vue").default);
 Vue.component("input-component", require("./components/InputContainer.vue").default);
 Vue.component("tabela-component", require("./components/Tabela.vue").default);
 Vue.component("card-component", require("./components/Card.vue").default);
+Vue.component("slider-component", require("./components/Slider.vue").default);
+Vue.component("card-produto-component", require("./components/ProdutoCards.vue").default);
 Vue.component("produtos-component", require("./components/Produtos.vue").default);
 Vue.component("marcas-component", require("./components/Marcas.vue").default);
 
