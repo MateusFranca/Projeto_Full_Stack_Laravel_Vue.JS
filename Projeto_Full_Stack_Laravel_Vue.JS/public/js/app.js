@@ -5318,16 +5318,16 @@ var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c("div", {
-    staticClass: "form-gropu"
+    staticClass: "form-group"
   }, [_c("label", {
     staticClass: "form-label",
     attrs: {
       "for": _vm.id
     }
   }, [_vm._v(_vm._s(_vm.titulo))]), _vm._v(" "), _vm._t("default"), _vm._v(" "), _c("div", {
-    staticClass: "form-text-average text-muted",
+    staticClass: "form-text-grand text-muted",
     attrs: {
-      id: _vm.IdHelp
+      id: _vm.idHelp
     }
   }, [_vm._v(_vm._s(_vm.textoAjuda))])], 2);
 };
@@ -5533,37 +5533,36 @@ var render = function render() {
       fn: function fn() {
         return [_c("div", {
           staticClass: "form-group mb-3"
-        }, [_c("input-container-component", {
+        }, [_c("input-component", {
           attrs: {
             titulo: "Nome da marca",
-            id: "novoNome",
-            "id-help": "novoNomeHelp",
+            id: "inputNome",
+            "id-help": "idHelp",
             "texto-ajuda": "Informe o nome da marca"
           }
         }, [_c("input", {
           staticClass: "form-control",
           attrs: {
             type: "text",
-            id: "novoNome",
-            "aria-describedby": "novoNomeHelp",
+            id: "inputNome",
+            "aria-describedby": "idHelp",
             placeholder: "Nome da marca"
           }
         })])], 1), _vm._v(" "), _c("div", {
           staticClass: "form-group"
-        }, [_c("input-container-component", {
+        }, [_c("input-component", {
           attrs: {
             titulo: "Imagem",
             id: "novoImagem",
             "id-help": "novoImagemHelp",
-            "texto-ajuda": "Selecione uma imagem no formato PNG"
+            "texto-ajuda": "Selecione uma imagem no formato PNG, JPG ou JPEG."
           }
         }, [_c("input", {
-          staticClass: "form-control-file",
+          staticClass: "form-control",
           attrs: {
             type: "file",
             id: "novoImagem",
-            "aria-describedby": "novoImagemHelp",
-            placeholder: "Selecione uma imagem"
+            "aria-describedby": "novoImagemHelp"
           }
         })])], 1)];
       },

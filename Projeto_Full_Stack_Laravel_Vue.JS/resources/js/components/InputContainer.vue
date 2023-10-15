@@ -1,9 +1,9 @@
 <template>
-  <div class="form-gropu">
+  <div class="form-group">
     <label :for="id" class="form-label">{{titulo}}</label>
-    <slot></slot> <!--Pega o cinteudo interno presente dentro da teg de componente e passa aqui-->
-    <div :id="IdHelp" class="form-text-average text-muted">{{textoAjuda}}</div>
-  </div>
+    <slot></slot> <!-- Use v-slot para definir slots -->
+    <div :id="idHelp" class="form-text-grand text-muted">{{textoAjuda}}</div>
+</div>
 </template>
 
 <script>

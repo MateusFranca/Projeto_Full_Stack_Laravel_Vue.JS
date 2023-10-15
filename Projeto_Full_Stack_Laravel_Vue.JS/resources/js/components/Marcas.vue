@@ -46,15 +46,15 @@
             <modal-component id="modal" titulo="Adicionar marca">
                 <template v-slot:conteudo>
                     <div class="form-group mb-3">
-                        <input-container-component titulo="Nome da marca" id="novoNome" id-help="novoNomeHelp" texto-ajuda="Informe o nome da marca">
-                            <input type="text" class="form-control" id="novoNome" aria-describedby="novoNomeHelp" placeholder="Nome da marca"/>
-                        </input-container-component>
+                        <input-component titulo="Nome da marca" id="inputNome" id-help="idHelp" texto-ajuda="Informe o nome da marca">
+                        <input type="text" class="form-control" id="inputNome" aria-describedby="idHelp" placeholder="Nome da marca">
+                        </input-component>
                     </div>
 
                     <div class="form-group">
-                        <input-container-component titulo="Imagem" id="novoImagem" id-help="novoImagemHelp" texto-ajuda="Selecione uma imagem no formato PNG">
-                            <input type="file" class="form-control-file" id="novoImagem" aria-describedby="novoImagemHelp" placeholder="Selecione uma imagem"/>
-                        </input-container-component>
+                      <input-component titulo="Imagem" id="novoImagem" id-help="novoImagemHelp" texto-ajuda="Selecione uma imagem no formato PNG, JPG ou JPEG.">
+                        <input type="file" class="form-control" id="novoImagem" aria-describedby="novoImagemHelp">
+                        </input-component>
                     </div>
                 </template>
 
